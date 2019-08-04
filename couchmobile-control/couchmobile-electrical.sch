@@ -542,34 +542,34 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J?
 U 1 1 5D42C5D8
-P 1350 5400
-F 0 "J?" H 1400 5917 50  0000 C CNN
-F 1 "GPIO_MEGA_1" H 1400 5826 50  0000 C CNN
-F 2 "" H 1350 5400 50  0001 C CNN
-F 3 "~" H 1350 5400 50  0001 C CNN
-	1    1350 5400
+P 1350 5900
+F 0 "J?" H 1400 6417 50  0000 C CNN
+F 1 "GPIO_MEGA_1" H 1400 6326 50  0000 C CNN
+F 2 "" H 1350 5900 50  0001 C CNN
+F 3 "~" H 1350 5900 50  0001 C CNN
+	1    1350 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J?
 U 1 1 5D42CA1E
-P 1350 6550
-F 0 "J?" H 1400 7067 50  0000 C CNN
-F 1 "GPIO_MEGA_2" H 1400 6976 50  0000 C CNN
-F 2 "" H 1350 6550 50  0001 C CNN
-F 3 "~" H 1350 6550 50  0001 C CNN
-	1    1350 6550
+P 1350 7050
+F 0 "J?" H 1400 7567 50  0000 C CNN
+F 1 "GPIO_MEGA_2" H 1400 7476 50  0000 C CNN
+F 2 "" H 1350 7050 50  0001 C CNN
+F 3 "~" H 1350 7050 50  0001 C CNN
+	1    1350 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J?
 U 1 1 5D42E605
-P 1350 4250
-F 0 "J?" H 1400 4767 50  0000 C CNN
-F 1 "GPIO_NANO_1" H 1400 4676 50  0000 C CNN
-F 2 "" H 1350 4250 50  0001 C CNN
-F 3 "~" H 1350 4250 50  0001 C CNN
-	1    1350 4250
+P 1350 4400
+F 0 "J?" H 1400 4917 50  0000 C CNN
+F 1 "GPIO_NANO_1" H 1400 4826 50  0000 C CNN
+F 2 "" H 1350 4400 50  0001 C CNN
+F 3 "~" H 1350 4400 50  0001 C CNN
+	1    1350 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1131,12 +1131,12 @@ IMU_RESET
 $Comp
 L RF:NRF24L01_Breakout U?
 U 1 1 5D463734
-P 3700 8950
-F 0 "U?" H 4178 8928 50  0000 L CNN
-F 1 "NRF24L01_Breakout" H 4178 8837 50  0000 L CNN
-F 2 "RF_Module:nRF24L01_Breakout" H 3850 9550 50  0001 L CIN
-F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 3700 8850 50  0001 C CNN
-	1    3700 8950
+P 4200 9100
+F 0 "U?" H 4678 9078 50  0000 L CNN
+F 1 "NRF24L01_Breakout" H 4678 8987 50  0000 L CNN
+F 2 "RF_Module:nRF24L01_Breakout" H 4350 9700 50  0001 L CIN
+F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 4200 9000 50  0001 C CNN
+	1    4200 9100
 	1    0    0    -1  
 $EndComp
 Text Label 3350 2550 0    50   ~ 0
@@ -1202,8 +1202,6 @@ Text Label 6450 4650 2    50   ~ 0
 ESTOP_HS
 Text Notes 3850 2150 0    50   ~ 0
 ESTOP backup signal to control transistors
-Text Notes 11300 7850 0    50   ~ 0
-TODO:\nWire up RF module\nConnect GPIO banks
 $Comp
 L Device:R_Small R?
 U 1 1 5D47F3EC
@@ -1559,37 +1557,37 @@ Wire Wire Line
 	14200 9050 14350 9050
 Text Label 14350 9050 0    50   ~ 0
 3V3
-Text Label 1150 5100 2    50   ~ 0
-5V
-Text Label 1150 5800 2    50   ~ 0
-3V3
-Text Label 1650 5800 0    50   ~ 0
-GND
-Text Label 1650 5100 0    50   ~ 0
-GND
-Text Label 1150 5200 2    50   ~ 0
-MEGA_RX0
-Text Label 1650 5200 0    50   ~ 0
-MEGA_TX0
-Text Label 1650 5700 0    50   ~ 0
-SCL
-Text Label 1150 5700 2    50   ~ 0
-SDA
-Text Label 1150 5300 2    50   ~ 0
-MEGA_A6
-Text Label 1150 5400 2    50   ~ 0
-MEGA_A8
-Text Label 1150 5500 2    50   ~ 0
-MEGA_A10
 Text Label 1150 5600 2    50   ~ 0
-MEGA_A12
-Text Label 1650 5300 0    50   ~ 0
-MEGA_A7
-Text Label 1650 5400 0    50   ~ 0
-MEGA_A9
-Text Label 1650 5500 0    50   ~ 0
-MEGA_A11
+5V
+Text Label 1150 6300 2    50   ~ 0
+3V3
+Text Label 1650 6300 0    50   ~ 0
+GND
 Text Label 1650 5600 0    50   ~ 0
+GND
+Text Label 1150 5700 2    50   ~ 0
+MEGA_RX0
+Text Label 1650 5700 0    50   ~ 0
+MEGA_TX0
+Text Label 1650 6200 0    50   ~ 0
+SCL
+Text Label 1150 6200 2    50   ~ 0
+SDA
+Text Label 1150 5800 2    50   ~ 0
+MEGA_A6
+Text Label 1150 5900 2    50   ~ 0
+MEGA_A8
+Text Label 1150 6000 2    50   ~ 0
+MEGA_A10
+Text Label 1150 6100 2    50   ~ 0
+MEGA_A12
+Text Label 1650 5800 0    50   ~ 0
+MEGA_A7
+Text Label 1650 5900 0    50   ~ 0
+MEGA_A9
+Text Label 1650 6000 0    50   ~ 0
+MEGA_A11
+Text Label 1650 6100 0    50   ~ 0
 MEGA_A13
 Text Label 6450 1850 2    50   ~ 0
 MEGA_RX0
@@ -1611,37 +1609,37 @@ Text Label 6450 4350 2    50   ~ 0
 MEGA_A12
 Text Label 6450 4450 2    50   ~ 0
 MEGA_A13
-Text Label 1150 6250 2    50   ~ 0
-5V
-Text Label 1650 6250 0    50   ~ 0
-GND
-Text Label 1150 6950 2    50   ~ 0
-3V3
-Text Label 1650 6950 0    50   ~ 0
-GND
-Text Label 1150 6350 2    50   ~ 0
-MEGA_A2
-Text Label 1650 6350 0    50   ~ 0
-MEGA_A3
-Text Label 1150 6450 2    50   ~ 0
-MEGA_D32
-Text Label 1150 6550 2    50   ~ 0
-MEGA_D34
-Text Label 1150 6650 2    50   ~ 0
-MEGA_D36
 Text Label 1150 6750 2    50   ~ 0
-MEGA_D38
-Text Label 1650 6450 0    50   ~ 0
-MEGA_D33
-Text Label 1650 6550 0    50   ~ 0
-MEGA_D35
-Text Label 1650 6650 0    50   ~ 0
-MEGA_D37
+5V
 Text Label 1650 6750 0    50   ~ 0
-MEGA_D39
+GND
+Text Label 1150 7450 2    50   ~ 0
+3V3
+Text Label 1650 7450 0    50   ~ 0
+GND
 Text Label 1150 6850 2    50   ~ 0
-SDA
+MEGA_A2
 Text Label 1650 6850 0    50   ~ 0
+MEGA_A3
+Text Label 1150 6950 2    50   ~ 0
+MEGA_D32
+Text Label 1150 7050 2    50   ~ 0
+MEGA_D34
+Text Label 1150 7150 2    50   ~ 0
+MEGA_D36
+Text Label 1150 7250 2    50   ~ 0
+MEGA_D38
+Text Label 1650 6950 0    50   ~ 0
+MEGA_D33
+Text Label 1650 7050 0    50   ~ 0
+MEGA_D35
+Text Label 1650 7150 0    50   ~ 0
+MEGA_D37
+Text Label 1650 7250 0    50   ~ 0
+MEGA_D39
+Text Label 1150 7350 2    50   ~ 0
+SDA
+Text Label 1650 7350 0    50   ~ 0
 SCL
 Text Label 6450 3350 2    50   ~ 0
 MEGA_A2
@@ -1668,60 +1666,60 @@ MEGA_D40
 Text Label 9050 4950 0    50   ~ 0
 MEGA_D41
 Wire Notes Line
-	600  4800 2300 4800
+	600  5300 2300 5300
 Wire Notes Line
-	2300 4800 2300 7200
+	2300 5300 2300 7700
 Wire Notes Line
-	2300 7200 600  7200
+	2300 7700 600  7700
 Wire Notes Line
-	600  7200 600  4800
-Text Notes 700  7150 0    50   ~ 0
+	600  7700 600  5300
+Text Notes 700  7650 0    50   ~ 0
 MEGA GPIO and I2C pins
-Text Label 3200 8650 2    50   ~ 0
+Text Label 3700 8800 2    50   ~ 0
 ESTOP_MOSI
-Text Label 3200 8750 2    50   ~ 0
+Text Label 3700 8900 2    50   ~ 0
 ESTOP_MISO
-Text Label 3200 8850 2    50   ~ 0
+Text Label 3700 9000 2    50   ~ 0
 ESTOP_SCK
-Text Label 3200 8950 2    50   ~ 0
+Text Label 3700 9100 2    50   ~ 0
 ESTOP_CSN
-Text Label 3200 9150 2    50   ~ 0
+Text Label 3700 9300 2    50   ~ 0
 ESTOP_CE
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5D590C79
-P 3700 8350
-F 0 "#PWR?" H 3700 8200 50  0001 C CNN
-F 1 "+3V3" H 3715 8523 50  0000 C CNN
-F 2 "" H 3700 8350 50  0001 C CNN
-F 3 "" H 3700 8350 50  0001 C CNN
-	1    3700 8350
+P 4200 8500
+F 0 "#PWR?" H 4200 8350 50  0001 C CNN
+F 1 "+3V3" H 4215 8673 50  0000 C CNN
+F 2 "" H 4200 8500 50  0001 C CNN
+F 3 "" H 4200 8500 50  0001 C CNN
+	1    4200 8500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D590D0A
-P 3700 9550
-F 0 "#PWR?" H 3700 9300 50  0001 C CNN
-F 1 "GND" H 3705 9377 50  0000 C CNN
-F 2 "" H 3700 9550 50  0001 C CNN
-F 3 "" H 3700 9550 50  0001 C CNN
-	1    3700 9550
+P 4200 9700
+F 0 "#PWR?" H 4200 9450 50  0001 C CNN
+F 1 "GND" H 4205 9527 50  0000 C CNN
+F 2 "" H 4200 9700 50  0001 C CNN
+F 3 "" H 4200 9700 50  0001 C CNN
+	1    4200 9700
 	1    0    0    -1  
 $EndComp
-Text Label 3200 9250 2    50   ~ 0
+Text Label 3700 9400 2    50   ~ 0
 ESTOP_IRQ
 Wire Notes Line
-	5050 8050 2600 8050
+	5550 8200 3100 8200
 Wire Notes Line
-	2600 8050 2600 10050
+	3100 8200 3100 10200
 Wire Notes Line
-	2600 10050 5050 10050
+	3100 10200 5550 10200
 Wire Notes Line
-	5050 10050 5050 8050
-Text Notes 2700 10000 0    50   ~ 0
+	5550 10200 5550 8200
+Text Notes 3200 10150 0    50   ~ 0
 ESTOP module
-Text Notes 3950 9600 0    50   ~ 0
+Text Notes 4450 9750 0    50   ~ 0
 Note: IRQ not in use
 Text Label 3350 2350 0    50   ~ 0
 ESTOP_CSN
@@ -1775,35 +1773,96 @@ F 3 "~" H 10900 9700 50  0001 C CNN
 	1    10900 9700
 	1    0    0    -1  
 $EndComp
-Text Label 1150 3950 2    50   ~ 0
+Text Label 1150 4100 2    50   ~ 0
 5V
-Text Label 1650 3950 0    50   ~ 0
+Text Label 1650 4100 0    50   ~ 0
 GND
-Text Label 1650 4650 0    50   ~ 0
+Text Label 1650 4800 0    50   ~ 0
 GND
-Text Label 1150 4650 2    50   ~ 0
+Text Label 1150 4800 2    50   ~ 0
 3V3
 Text Label 3350 1650 0    50   ~ 0
 NANO_INT0
 $Comp
 L Connector:Conn_01x02_Male J?
 U 1 1 5D5A27D7
-P 2800 9550
-F 0 "J?" H 2906 9728 50  0000 C CNN
-F 1 "ESTOP_IRQ_EN" H 2906 9637 50  0000 C CNN
-F 2 "" H 2800 9550 50  0001 C CNN
-F 3 "~" H 2800 9550 50  0001 C CNN
-	1    2800 9550
+P 3300 9700
+F 0 "J?" H 3406 9878 50  0000 C CNN
+F 1 "ESTOP_IRQ_EN" H 3406 9787 50  0000 C CNN
+F 2 "" H 3300 9700 50  0001 C CNN
+F 3 "~" H 3300 9700 50  0001 C CNN
+	1    3300 9700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 9250 3150 9250
+	3700 9400 3650 9400
 Wire Wire Line
-	3150 9250 3150 9550
-Text Label 3100 9650 0    50   ~ 0
+	3650 9400 3650 9700
+Text Label 3600 9800 0    50   ~ 0
 NANO_INT0
 Wire Wire Line
-	3000 9650 3100 9650
+	3500 9800 3600 9800
 Wire Wire Line
-	3000 9550 3150 9550
+	3500 9700 3650 9700
+Text Label 750  2050 2    50   ~ 0
+NANO_A7
+Text Label 750  2150 2    50   ~ 0
+NANO_A6
+Text Label 750  2250 2    50   ~ 0
+NANO_A5
+Text Label 750  2350 2    50   ~ 0
+NANO_A4
+Text Label 750  2450 2    50   ~ 0
+NANO_A3
+Text Label 750  2550 2    50   ~ 0
+NANO_A2
+Text Label 750  2650 2    50   ~ 0
+NANO_A1
+Text Label 1150 4200 2    50   ~ 0
+NANO_A7
+Text Label 1650 4200 0    50   ~ 0
+NANO_A6
+Text Label 1650 4300 0    50   ~ 0
+NANO_A4
+Text Label 1650 4400 0    50   ~ 0
+NANO_A2
+Text Label 1150 4300 2    50   ~ 0
+NANO_A5
+Text Label 1150 4400 2    50   ~ 0
+NANO_A3
+Text Label 1150 4500 2    50   ~ 0
+NANO_A1
+Text Label 3350 2250 0    50   ~ 0
+NANO_D8
+Text Label 1650 4500 0    50   ~ 0
+NANO_D8
+Text Label 1150 4600 2    50   ~ 0
+ESTOP_ON
+Text Label 1650 4600 0    50   ~ 0
+ESTOP_HS
+Text Label 1150 4700 2    50   ~ 0
+NANO_RX
+Text Label 1650 4700 0    50   ~ 0
+NANO_TX
+Wire Notes Line
+	600  3800 2300 3800
+Wire Notes Line
+	2300 3800 2300 5150
+Wire Notes Line
+	2300 5150 600  5150
+Wire Notes Line
+	600  5150 600  3800
+Text Notes 700  5100 0    50   ~ 0
+NANO GPIO
+NoConn ~ 13050 1450
+Wire Notes Line
+	11100 1550 13850 1550
+Wire Notes Line
+	13850 1550 13850 800 
+Wire Notes Line
+	13850 800  11100 800 
+Wire Notes Line
+	11100 800  11100 1550
+Text Notes 11200 1500 0    50   ~ 0
+Joystick module
 $EndSCHEMATC
