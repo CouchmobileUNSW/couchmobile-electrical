@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\willi\Desktop\Repos\Couchmobile\couchmobile-electrical\couchmobile-control\couchmobile-electrical.sch)
-    (date "6/08/2019 4:11:18 AM")
+    (date "6/08/2019 12:19:00 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -368,7 +368,7 @@
       (tstamp 5D63A18D))
     (comp (ref Q1)
       (value "PMOS DGS")
-      (footprint Package_SO:SO-8_5.3x6.2mm_P1.27mm)
+      (footprint couch-packages:SO-8_DGS)
       (datasheet ~)
       (libsource (lib Device) (part Q_PMOS_DGS) (description "Transistor P-MOSFET with substrate diode (general)"))
       (sheetpath (names /) (tstamps /))
