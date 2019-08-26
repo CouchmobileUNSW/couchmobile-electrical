@@ -2166,4 +2166,6 @@ Wire Wire Line
 NoConn ~ 8400 9550
 NoConn ~ 8400 9650
 NoConn ~ 8400 9750
+NoConn ~ 13250 1050
+NoConn ~ 13250 1150
 $EndSCHEMATC
