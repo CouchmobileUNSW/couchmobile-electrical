@@ -1,0 +1,796 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# couch-pwr-rb-eagle-import:+12V
+#
+DEF couch-pwr-rb-eagle-import:+12V #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "couch-pwr-rb-eagle-import:+12V" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 50 -50 -25 N
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 50 -25 0 50 N
+X +12V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:+3V3
+#
+DEF couch-pwr-rb-eagle-import:+3V3 #+3V3 0 40 Y Y 1 L P
+F0 "#+3V3" 0 0 50 H I C CNN
+F1 "couch-pwr-rb-eagle-import:+3V3" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +3V3 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:AP2204K-
+#
+DEF couch-pwr-rb-eagle-import:AP2204K- IC 0 40 Y Y 1 L N
+F0 "IC" -400 300 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:AP2204K-" -400 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -400 -200 -400 300 N
+P 2 1 0 0 -400 300 400 300 N
+P 2 1 0 0 400 -200 -400 -200 N
+P 2 1 0 0 400 300 400 -200 N
+X VIN 1 -600 200 200 R 50 50 1 0 W
+X GND 2 0 -400 200 U 50 50 1 0 W
+X EN 3 -600 0 200 R 50 50 1 0 I
+X ADJ/NC 4 600 -100 200 L 50 50 1 0 I
+X VOUT 5 600 200 200 L 50 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:C-EUC0603
+#
+DEF couch-pwr-rb-eagle-import:C-EUC0603 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:C-EUC0603" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:C-EUC0805
+#
+DEF couch-pwr-rb-eagle-import:C-EUC0805 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:C-EUC0805" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:C-EUC1206
+#
+DEF couch-pwr-rb-eagle-import:C-EUC1206 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:C-EUC1206" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:C-EUC1210
+#
+DEF couch-pwr-rb-eagle-import:C-EUC1210 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:C-EUC1210" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:CPOL-USE7.5-16
+#
+DEF couch-pwr-rb-eagle-import:CPOL-USE7.5-16 C 0 40 Y Y 1 L N
+F0 "C" 40 25 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:CPOL-USE7.5-16" 40 -165 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -199 159 900 1274 1 0 10 N 0 -40 -97 -72
+A 0 -198 159 519 900 1 0 10 N 98 -73 0 -39
+S -88 26 -53 31 1 0 0 F
+S -73 11 -68 46 1 0 0 F
+P 2 1 0 0 -100 0 100 0 N
+P 2 1 0 0 0 -40 0 -100 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:CRYSTALHC49S
+#
+DEF couch-pwr-rb-eagle-import:CRYSTALHC49S Q 0 40 Y Y 1 L N
+F0 "Q" 100 40 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:CRYSTALHC49S" 100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -85 -45 28 0 1 0 1 Normal 0 L B
+T 0 60 -45 28 0 1 0 2 Normal 0 L B
+P 2 1 0 0 -100 0 -40 0 N
+P 2 1 0 0 -40 70 -40 -70 N
+P 2 1 0 0 -15 -60 15 -60 N
+P 2 1 0 0 -15 60 -15 -60 N
+P 2 1 0 0 15 -60 15 60 N
+P 2 1 0 0 15 60 -15 60 N
+P 2 1 0 0 40 0 100 0 N
+P 2 1 0 0 40 70 40 -70 N
+X 1 1 -100 0 0 R 0 0 1 0 P
+X 2 2 100 0 0 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:DIODE-DO-214AC
+#
+DEF couch-pwr-rb-eagle-import:DIODE-DO-214AC D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:DIODE-DO-214AC" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:DIODE-SMC
+#
+DEF couch-pwr-rb-eagle-import:DIODE-SMC D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:DIODE-SMC" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:DIODE-SOD323-W
+#
+DEF couch-pwr-rb-eagle-import:DIODE-SOD323-W D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:DIODE-SOD323-W" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:DSPIC33EPMC202-SS
+#
+DEF couch-pwr-rb-eagle-import:DSPIC33EPMC202-SS IC 0 40 Y Y 1 L N
+F0 "IC" -400 700 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:DSPIC33EPMC202-SS" -400 -700 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -400 -600 -400 700 N
+P 2 1 0 0 -400 700 600 700 N
+P 2 1 0 0 600 -600 -400 -600 N
+P 2 1 0 0 600 700 600 -600 N
+X ~MCLR 1 0 900 200 D 50 50 1 0 I
+X RA3 10 -600 -100 200 R 50 50 1 0 U
+X RB4 11 -600 -200 200 R 50 50 1 0 U
+X RA4 12 -600 -300 200 R 50 50 1 0 U
+X VDD 13 100 900 200 D 50 50 1 0 W
+X RB5 14 -600 -400 200 R 50 50 1 0 U
+X RB6 15 800 -300 200 L 50 50 1 0 U
+X RB7 16 800 -200 200 L 50 50 1 0 U
+X RB8 17 800 -100 200 L 50 50 1 0 U
+X RB9 18 800 0 200 L 50 50 1 0 U
+X VSS@2 19 100 -800 200 U 50 50 1 0 W
+X RA0 2 -600 600 200 R 50 50 1 0 U
+X VCAP 20 800 -500 200 L 50 50 1 0 P
+X RB10 21 800 100 200 L 50 50 1 0 U
+X RB11 22 800 200 200 L 50 50 1 0 U
+X RB12 23 800 300 200 L 50 50 1 0 U
+X RB13 24 800 400 200 L 50 50 1 0 U
+X RB14 25 800 500 200 L 50 50 1 0 U
+X RB15 26 800 600 200 L 50 50 1 0 U
+X VSSA@3 27 200 -800 200 U 50 50 1 0 W
+X VDDA 28 200 900 200 D 50 50 1 0 W
+X RA1 3 -600 500 200 R 50 50 1 0 U
+X RB0 4 -600 400 200 R 50 50 1 0 U
+X RB1 5 -600 300 200 R 50 50 1 0 U
+X RB2 6 -600 200 200 R 50 50 1 0 U
+X RB3 7 -600 100 200 R 50 50 1 0 U
+X VSS@1 8 0 -800 200 U 50 50 1 0 W
+X RA2 9 -600 0 200 R 50 50 1 0 U
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:DUOLED-RG-C
+#
+DEF couch-pwr-rb-eagle-import:DUOLED-RG-C LD 0 40 Y Y 1 L N
+F0 "LD" 250 -200 59 V V L BNN
+F1 "couch-pwr-rb-eagle-import:DUOLED-RG-C" 350 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 10 1 0 16 N
+T 900 -100 -200 34 0 1 0 green Normal 0 L B
+T 900 100 150 34 0 1 0 red Normal 0 L B
+P 2 1 0 0 -80 170 -135 115 N
+P 2 1 0 0 -75 125 -130 70 N
+P 2 1 0 0 -50 -200 0 -200 N
+P 2 1 0 0 -50 -200 0 -100 N
+P 2 1 0 0 -50 -100 0 -100 N
+P 2 1 0 0 0 -200 0 -100 N
+P 2 1 0 0 0 -200 50 -200 N
+P 2 1 0 0 0 -100 50 -200 N
+P 2 1 0 0 0 -100 50 -100 N
+P 2 1 0 0 0 100 -50 100 N
+P 2 1 0 0 0 100 -50 200 N
+P 2 1 0 0 0 100 0 -100 N
+P 2 1 0 0 0 200 -50 200 N
+P 2 1 0 0 0 200 0 100 N
+P 2 1 0 0 50 100 0 100 N
+P 2 1 0 0 50 200 0 100 N
+P 2 1 0 0 50 200 0 200 N
+P 2 1 0 0 75 -125 130 -70 N
+P 2 1 0 0 80 -170 135 -115 N
+P 3 1 0 0 -135 115 -120 150 -100 130 F
+P 3 1 0 0 -130 70 -115 105 -95 85 F
+P 3 1 0 0 95 -85 130 -70 115 -105 F
+P 3 1 0 0 100 -130 135 -115 120 -150 F
+X AR AR 0 300 100 D 0 0 1 0 P
+X AG AX 0 -300 100 U 0 0 1 0 P
+X C C -100 0 100 R 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:FRAME-A3
+#
+DEF ~couch-pwr-rb-eagle-import:FRAME-A3 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "couch-pwr-rb-eagle-import:FRAME-A3" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 13550 800 85 0 1 0 >AUTHOR Normal 0 L B
+T 0 13550 600 85 0 1 0 >DRAWING_NAME Normal 0 L B
+T 0 13550 400 76 0 1 0 >LAST_DATE_TIME Normal 0 L B
+T 0 11750 400 85 0 1 0 >REVISION Normal 0 L B
+T 0 14075 200 85 0 1 0 >SHEET Normal 0 L B
+T 0 13540 195 85 0 1 0 Sheet: Normal 0 L B
+P 2 1 0 0 11350 150 11350 950 N
+P 2 1 0 0 11350 150 13475 150 N
+P 2 1 0 0 11350 950 13475 950 N
+P 2 1 0 0 13475 150 14700 150 N
+P 2 1 0 0 13475 350 13475 150 N
+P 2 1 0 0 13475 350 13475 550 N
+P 2 1 0 0 13475 550 13475 750 N
+P 2 1 0 0 13475 550 15100 550 N
+P 2 1 0 0 13475 750 13475 950 N
+P 2 1 0 0 13475 750 15100 750 N
+P 2 1 0 0 13475 950 15100 950 N
+P 2 1 0 0 14700 150 14700 350 N
+P 2 1 0 0 14700 150 15100 150 N
+P 2 1 0 0 14700 350 13475 350 N
+P 2 1 0 0 14700 350 15100 350 N
+P 2 1 0 0 15100 150 15100 350 N
+P 2 1 0 0 15100 350 15100 550 N
+P 2 1 0 0 15100 550 15100 750 N
+P 2 1 0 0 15100 750 15100 950 N
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:FUSEBLADE
+#
+DEF couch-pwr-rb-eagle-import:FUSEBLADE F 0 40 Y Y 1 L N
+F0 "F" -150 55 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:FUSEBLADE" -150 -115 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -150 -30 150 -30 N
+P 2 1 0 0 -150 30 -150 -30 N
+P 2 1 0 0 -100 0 100 0 N
+P 2 1 0 0 150 -30 150 30 N
+P 2 1 0 0 150 30 -150 30 N
+X 1 1A -200 0 100 R 0 0 1 0 P
+X 1 1B -200 0 100 R 0 0 1 0 P
+X 2 2A 200 0 100 L 0 0 1 0 P
+X 2 2B 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:INA240
+#
+DEF couch-pwr-rb-eagle-import:INA240 IC 0 40 Y Y 1 L N
+F0 "IC" -400 300 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:INA240" -400 -600 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -400 -500 -400 300 N
+P 2 1 0 0 -400 300 400 300 N
+P 2 1 0 0 400 -500 -400 -500 N
+P 2 1 0 0 400 300 400 -500 N
+X IN+ P2 -600 -200 200 R 50 50 1 0 I
+X IN- P3 -600 0 200 R 50 50 1 0 I
+X GND P4 0 -700 200 U 50 50 1 0 W
+X VS P5 0 500 200 D 50 50 1 0 W
+X REF2 P6 600 -100 200 L 50 50 1 0 P
+X REF1 P7 600 -300 200 L 50 50 1 0 P
+X OUT P8 600 100 200 L 50 50 1 0 O
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:IRS21867
+#
+DEF couch-pwr-rb-eagle-import:IRS21867 IC 0 40 Y Y 1 L N
+F0 "IC" -400 500 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:IRS21867" -400 -700 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -400 -600 -400 500 N
+P 2 1 0 0 -400 500 400 500 N
+P 2 1 0 0 400 -600 -400 -600 N
+P 2 1 0 0 400 500 400 -600 N
+X VCC 1 0 700 200 D 50 50 1 0 W
+X HIN 2 -600 100 200 R 50 50 1 0 I
+X LIN 3 -600 -200 200 R 50 50 1 0 I
+X COM 4 0 -800 200 U 50 50 1 0 W
+X LO 5 600 -500 200 L 50 50 1 0 O
+X VS 6 600 -100 200 L 50 50 1 0 P
+X HO 7 600 100 200 L 50 50 1 0 O
+X VB 8 600 400 200 L 50 50 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:JP1E
+#
+DEF couch-pwr-rb-eagle-import:JP1E JP 0 40 Y Y 1 L N
+F0 "JP" -50 0 59 V V L BNN
+F1 "couch-pwr-rb-eagle-import:JP1E" 225 0 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -25 0 125 0 N
+P 2 1 0 0 -25 25 -25 0 N
+P 2 1 0 0 0 0 0 50 N
+P 2 1 0 0 0 100 0 50 N
+P 2 1 0 0 100 0 100 50 N
+P 2 1 0 0 100 100 100 50 N
+P 2 1 0 0 125 0 125 25 N
+P 2 1 0 0 125 25 -25 25 N
+X 1 1 0 -100 100 U 50 0 1 0 P
+X 2 2 100 -100 100 U 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:LEDCHIP-LED0603
+#
+DEF couch-pwr-rb-eagle-import:LEDCHIP-LED0603 LED 0 40 Y Y 1 L N
+F0 "LED" 140 -180 59 V V L BNN
+F1 "couch-pwr-rb-eagle-import:LEDCHIP-LED0603" 225 -180 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C C 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:LM317TLBH
+#
+DEF couch-pwr-rb-eagle-import:LM317TLBH IC 0 40 Y Y 1 L N
+F0 "IC" 100 -300 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:LM317TLBH" 100 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -80 -170 51 0 1 0 ADJ Normal 0 L B
+T 0 -175 -25 51 0 1 0 IN Normal 0 L B
+T 0 5 -25 51 0 1 0 OUT Normal 0 L B
+P 2 1 0 0 -200 -200 200 -200 N
+P 2 1 0 0 -200 100 -200 -200 N
+P 2 1 0 0 200 -200 200 100 N
+P 2 1 0 0 200 100 -200 100 N
+X OUT D 300 0 100 L 0 0 1 0 P
+X ADJ G 0 -300 100 U 0 0 1 0 I
+X IN S -300 0 100 R 0 0 1 0 I
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:MA03-1
+#
+DEF couch-pwr-rb-eagle-import:MA03-1 SV 0 40 Y Y 1 L N
+F0 "SV" -50 230 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:MA03-1" -50 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 200 -50 -200 N
+P 2 1 0 0 -50 200 150 200 N
+P 2 1 0 0 50 -100 100 -100 N
+P 2 1 0 0 50 0 100 0 N
+P 2 1 0 0 50 100 100 100 N
+P 2 1 0 0 150 -200 -50 -200 N
+P 2 1 0 0 150 -200 150 200 N
+X 1 1 300 -100 200 L 50 0 1 0 P
+X 2 2 300 0 200 L 50 0 1 0 P
+X 3 3 300 100 200 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:MA05-1
+#
+DEF couch-pwr-rb-eagle-import:MA05-1 SV 0 40 Y Y 1 L N
+F0 "SV" -50 330 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:MA05-1" -50 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 300 -50 -300 N
+P 2 1 0 0 -50 300 150 300 N
+P 2 1 0 0 50 -200 100 -200 N
+P 2 1 0 0 50 -100 100 -100 N
+P 2 1 0 0 50 0 100 0 N
+P 2 1 0 0 50 100 100 100 N
+P 2 1 0 0 50 200 100 200 N
+P 2 1 0 0 150 -300 -50 -300 N
+P 2 1 0 0 150 -300 150 300 N
+X 1 1 300 -200 200 L 50 0 1 0 P
+X 2 2 300 -100 200 L 50 0 1 0 P
+X 3 3 300 0 200 L 50 0 1 0 P
+X 4 4 300 100 200 L 50 0 1 0 P
+X 5 5 300 200 200 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:MCP1501-CHY
+#
+DEF couch-pwr-rb-eagle-import:MCP1501-CHY IC 0 40 Y Y 1 L N
+F0 "IC" -100 300 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:MCP1501-CHY" -200 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -400 -300 -400 300 N
+P 2 1 0 0 -400 300 200 300 N
+P 2 1 0 0 200 -300 -400 -300 N
+P 2 1 0 0 200 300 200 -300 N
+X OUT 1 400 0 200 L 50 50 1 0 O
+X VSS 2 -300 -500 200 U 0 50 1 0 W
+X VSS 3 -300 -500 200 U 0 50 1 0 W
+X ~SHDN 4 -200 500 200 D 50 50 1 0 I
+X VSS 5 -300 -500 200 U 0 50 1 0 W
+X VDD 6 -300 500 200 D 50 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:PE
+#
+DEF couch-pwr-rb-eagle-import:PE #PE 0 40 Y Y 1 L P
+F0 "#PE" 0 0 50 H I C CNN
+F1 "couch-pwr-rb-eagle-import:PE" -100 -100 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+P 2 1 0 0 -43 -20 43 -20 N
+P 2 1 0 0 -24 -40 24 -40 N
+P 2 1 0 0 -12 -60 13 -60 N
+X PE 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:PIN262409-1
+#
+DEF couch-pwr-rb-eagle-import:PIN262409-1 J 0 40 Y Y 1 L N
+F0 "J" -100 50 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:PIN262409-1" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 -20 100 20 1 0 0 F
+X 1 A1 -200 0 200 R 0 0 1 0 P
+X 1 A2 -200 0 200 R 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:PMOSFET_NTO220BH
+#
+DEF couch-pwr-rb-eagle-import:PMOSFET_NTO220BH Q 0 40 Y Y 1 L N
+F0 "Q" 200 100 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:PMOSFET_NTO220BH" 200 0 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 100 -75 5 1 0 16 N
+T 0 50 100 27 0 1 0 D Normal 0 L B
+T 0 -100 -50 27 0 1 0 G Normal 0 L B
+T 0 50 -125 27 0 1 0 S Normal 0 L B
+S -10 -100 20 -50 1 0 0 F
+S -10 -35 20 35 1 0 0 F
+S -10 50 20 100 1 0 0 F
+P 2 1 0 0 -44 -100 -100 -100 N
+P 2 1 0 0 -44 95 -44 -100 N
+P 2 1 0 0 20 -75 100 -75 N
+P 2 1 0 0 20 0 70 -20 N
+P 2 1 0 0 30 0 65 -10 N
+P 2 1 0 0 65 -10 65 0 N
+P 2 1 0 0 65 0 55 0 N
+P 2 1 0 0 65 0 100 0 N
+P 2 1 0 0 65 10 30 0 N
+P 2 1 0 0 70 -20 70 20 N
+P 2 1 0 0 70 20 20 0 N
+P 2 1 0 0 100 -75 100 -100 N
+P 2 1 0 0 100 0 100 -75 N
+P 2 1 0 0 100 75 21 75 N
+P 2 1 0 0 100 100 100 75 N
+X D D 100 200 100 D 0 0 1 0 P
+X G G -100 -100 0 R 0 0 1 0 P
+X S S 100 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:R-US_R0603
+#
+DEF couch-pwr-rb-eagle-import:R-US_R0603 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:R-US_R0603" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:R-US_R1206
+#
+DEF couch-pwr-rb-eagle-import:R-US_R1206 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:R-US_R1206" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:R-US_R2512
+#
+DEF couch-pwr-rb-eagle-import:R-US_R2512 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:R-US_R2512" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:TLP283
+#
+DEF couch-pwr-rb-eagle-import:TLP283 OK 0 40 Y Y 1 L N
+F0 "OK" -275 225 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:TLP283" -275 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -15 -100 15 100 1 0 0 F
+P 2 1 0 0 -275 -200 175 -200 N
+P 2 1 0 0 -275 200 -275 -200 N
+P 2 1 0 0 -275 200 175 200 N
+P 2 1 0 0 -175 -100 -300 -100 N
+P 2 1 0 0 -175 -50 -225 -50 N
+P 2 1 0 0 -175 -50 -225 50 N
+P 2 1 0 0 -175 -50 -175 -100 N
+P 2 1 0 0 -175 50 -225 50 N
+P 2 1 0 0 -175 50 -175 -50 N
+P 2 1 0 0 -175 100 -300 100 N
+P 2 1 0 0 -175 100 -175 50 N
+P 2 1 0 0 -125 -50 -175 -50 N
+P 2 1 0 0 -125 50 -175 -50 N
+P 2 1 0 0 -125 50 -175 50 N
+P 2 1 0 0 -100 0 -45 55 N
+P 2 1 0 0 -95 -45 -40 10 N
+P 2 1 0 0 -80 40 -60 20 N
+P 2 1 0 0 -75 -5 -55 -25 N
+P 2 1 0 0 -60 20 -45 55 N
+P 2 1 0 0 -55 -25 -40 10 N
+P 2 1 0 0 -45 55 -80 40 N
+P 2 1 0 0 -40 10 -75 -5 N
+P 2 1 0 0 0 0 90 -90 N
+P 2 1 0 0 40 -70 70 -40 N
+P 2 1 0 0 70 -40 90 -90 N
+P 2 1 0 0 90 -90 40 -70 N
+P 2 1 0 0 90 -90 100 -100 N
+P 2 1 0 0 100 -100 200 -100 N
+P 2 1 0 0 100 100 0 0 N
+P 2 1 0 0 100 100 200 100 N
+P 2 1 0 0 175 200 175 -200 N
+X A 1 -400 100 100 R 50 0 1 0 P
+X C 2 -400 -100 100 R 50 0 1 0 P
+X EMIT 3 300 -100 100 L 50 0 1 0 P
+X COL 4 300 100 100 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:TVS-UNI
+#
+DEF couch-pwr-rb-eagle-import:TVS-UNI TV 0 40 Y Y 1 L N
+F0 "TV" -100 -100 59 V V L BNN
+F1 "couch-pwr-rb-eagle-import:TVS-UNI" 200 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -100 50 -100 N
+P 2 1 0 0 -50 0 -75 -25 N
+P 2 1 0 0 0 0 -50 -100 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 50 0 N
+P 2 1 0 0 50 -100 0 0 N
+P 2 1 0 0 50 0 75 25 N
+P 2 1 0 0 60 -70 80 -10 N
+P 2 1 0 0 80 -10 100 -30 N
+P 2 1 0 0 100 -30 120 30 N
+X M1 1 0 100 100 D 0 0 1 0 P
+X M2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:V+
+#
+DEF couch-pwr-rb-eagle-import:V+ #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "couch-pwr-rb-eagle-import:V+" -100 -100 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -35 -50 35 -50 N
+P 2 1 0 0 0 5 -35 -50 N
+P 2 1 0 0 35 -50 0 5 N
+X V+ 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:ZENER-DIODESMB
+#
+DEF couch-pwr-rb-eagle-import:ZENER-DIODESMB D 0 40 Y Y 1 L N
+F0 "D" -70 75 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:ZENER-DIODESMB" -70 -135 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 -50 25 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-pwr-rb-eagle-import:ZENER-DIODESOD80C
+#
+DEF couch-pwr-rb-eagle-import:ZENER-DIODESOD80C D 0 40 Y Y 1 L N
+F0 "D" -70 75 59 H V L BNN
+F1 "couch-pwr-rb-eagle-import:ZENER-DIODESOD80C" -70 -135 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 -50 25 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

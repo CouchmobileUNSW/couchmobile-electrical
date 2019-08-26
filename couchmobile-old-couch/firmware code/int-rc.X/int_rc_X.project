@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="int_rc_X" Version="10.0.0" InternalType="">
+  <VirtualDirectory Name="int-rc">
+    <File Name="web.c"/>
+    <File Name="util.h"/>
+    <File Name="udpcomm.h"/>
+    <File Name="udpcomm.c"/>
+    <File Name="time.h"/>
+    <File Name="time.c"/>
+    <File Name="thermistor.h"/>
+    <File Name="thermistor.c"/>
+    <File Name="temperature.h"/>
+    <File Name="temperature.c"/>
+    <File Name="TCPIPConfig.h"/>
+    <File Name="system.h"/>
+    <File Name="system.c"/>
+    <File Name="sx1272.h"/>
+    <File Name="sx1272.c"/>
+    <File Name="softspi.h"/>
+    <File Name="softspi.c"/>
+    <File Name="pwm.h"/>
+    <File Name="pwm.c"/>
+    <File Name="ppm.h"/>
+    <File Name="ppm.c"/>
+    <File Name="pins.h"/>
+    <File Name="message.h"/>
+    <File Name="main.c"/>
+    <File Name="lora.c"/>
+    <File Name="flags.h"/>
+    <File Name="flags.c"/>
+    <File Name="encoder.h"/>
+    <File Name="encoder.c"/>
+    <File Name="drive.h"/>
+    <File Name="config.c"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="tcpip">
+    <File Name="tcpip/HardwareProfile.h"/>
+    <File Name="tcpip/GenericTypeDefs.h"/>
+    <File Name="tcpip/Compiler.h"/>
+    <VirtualDirectory Name="TCPIP Stack">
+      <File Name="tcpip/TCPIP Stack/UDPPerformanceTest.c"/>
+      <File Name="tcpip/TCPIP Stack/UDP.c"/>
+      <File Name="tcpip/TCPIP Stack/UART2TCPBridge.c"/>
+      <File Name="tcpip/TCPIP Stack/UART.c"/>
+      <File Name="tcpip/TCPIP Stack/Tick.c"/>
+      <File Name="tcpip/TCPIP Stack/TFTPc.c"/>
+      <File Name="tcpip/TCPIP Stack/Telnet.c"/>
+      <File Name="tcpip/TCPIP Stack/TCPPerformanceTest.c"/>
+      <File Name="tcpip/TCPIP Stack/TCP.c"/>
+      <File Name="tcpip/TCPIP Stack/StackTsk.c"/>
+      <File Name="tcpip/TCPIP Stack/SSL.c"/>
+      <File Name="tcpip/TCPIP Stack/SPIRAM.c"/>
+      <File Name="tcpip/TCPIP Stack/SPIFlash.c"/>
+      <File Name="tcpip/TCPIP Stack/SPIEEPROM.c"/>
+      <File Name="tcpip/TCPIP Stack/SNTP.c"/>
+      <File Name="tcpip/TCPIP Stack/SNMPv3USM.c"/>
+      <File Name="tcpip/TCPIP Stack/SNMPv3.c"/>
+      <File Name="tcpip/TCPIP Stack/SNMP.c"/>
+      <File Name="tcpip/TCPIP Stack/SMTP.c"/>
+      <File Name="tcpip/TCPIP Stack/RSA.c"/>
+      <File Name="tcpip/TCPIP Stack/Reboot.c"/>
+      <File Name="tcpip/TCPIP Stack/Random.c"/>
+      <File Name="tcpip/TCPIP Stack/NBNS.c"/>
+      <File Name="tcpip/TCPIP Stack/MPFS2.c"/>
+      <File Name="tcpip/TCPIP Stack/LCDBlocking.c"/>
+      <File Name="tcpip/TCPIP Stack/IP.c"/>
+      <File Name="tcpip/TCPIP Stack/ICMP.c"/>
+      <File Name="tcpip/TCPIP Stack/HTTP2.c"/>
+      <File Name="tcpip/TCPIP Stack/Helpers.c"/>
+      <File Name="tcpip/TCPIP Stack/Hashes.c"/>
+      <File Name="tcpip/TCPIP Stack/FTP.c"/>
+      <File Name="tcpip/TCPIP Stack/FileSystem.c"/>
+      <File Name="tcpip/TCPIP Stack/ENC28J60.c"/>
+      <File Name="tcpip/TCPIP Stack/DynDNS.c"/>
+      <File Name="tcpip/TCPIP Stack/DNSs.c"/>
+      <File Name="tcpip/TCPIP Stack/DNS.c"/>
+      <File Name="tcpip/TCPIP Stack/DHCPs.c"/>
+      <File Name="tcpip/TCPIP Stack/DHCP.c"/>
+      <File Name="tcpip/TCPIP Stack/Delay.c"/>
+      <File Name="tcpip/TCPIP Stack/BigInt.c"/>
+      <File Name="tcpip/TCPIP Stack/BerkeleyAPI.c"/>
+      <File Name="tcpip/TCPIP Stack/AutoIP.c"/>
+      <File Name="tcpip/TCPIP Stack/ARP.c"/>
+      <File Name="tcpip/TCPIP Stack/ARCFOUR.c"/>
+      <File Name="tcpip/TCPIP Stack/Announce.c"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Include">
+      <VirtualDirectory Name="TCPIP Stack">
+        <File Name="tcpip/Include/TCPIP Stack/_HTTP2.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/XEEPROM.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/UDPPerformanceTest.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/UDP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/UART2TCPBridge.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/UART.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/Tick.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/TFTPc.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/Telnet.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/TCPPerformanceTest.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/TCPIP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/TCP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/StackTsk.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/SSLClientSize.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/SSL.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/SPIRAM.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/SPIFlash.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/SNTP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/SNMPv3.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/SNMP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/SMTP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/RSA.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/regdef.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/Reboot.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/Random.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/NBNS.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/MPFS2.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/MAC.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/LCDBlocking.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/IP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/ICMP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/HTTP2.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/Helpers.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/Hashes.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/FTP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/FileSystem.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/ENC28J60.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/DynDNS.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/DNS.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/DHCP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/Delay.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/BigInt.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/BerkeleyAPI.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/AutoIP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/ARP.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/ARCFOUR.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/Announce.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/aes_pic24f.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/AES_OFB.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/AES_ECB_PIC32.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/AES_ECB.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/AES_CTR.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/AES_CFB.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/AES_CBC.h"/>
+        <File Name="tcpip/Include/TCPIP Stack/AES.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="MinGW ( MinGW )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Workspace Settings&gt;" DbgSetName="&lt;Use Global Settings&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

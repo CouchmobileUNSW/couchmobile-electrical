@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name couch-int-rc)(type KiCad)(uri "$(KIPRJMOD)/couch-int-rc.pretty")(options "")(descr ""))
+)

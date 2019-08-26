@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name couch-reg-rc)(type KiCad)(uri "$(KIPRJMOD)/couch-reg-rc.pretty")(options "")(descr ""))
+)

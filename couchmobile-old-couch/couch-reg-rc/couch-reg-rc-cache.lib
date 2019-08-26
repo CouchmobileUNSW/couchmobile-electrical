@@ -1,0 +1,302 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# couch-reg-rc-eagle-import:+12V
+#
+DEF couch-reg-rc-eagle-import:+12V #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "couch-reg-rc-eagle-import:+12V" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 50 -50 -25 N
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 50 -25 0 50 N
+X +12V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:CPOL-USE7.5-18
+#
+DEF couch-reg-rc-eagle-import:CPOL-USE7.5-18 C 0 40 Y Y 1 L N
+F0 "C" 40 25 59 H V L BNN
+F1 "couch-reg-rc-eagle-import:CPOL-USE7.5-18" 40 -165 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -199 159 900 1274 1 0 10 N 0 -40 -97 -72
+A 0 -198 159 519 900 1 0 10 N 98 -73 0 -39
+T 0 0 100 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 0 -200 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+S -88 26 -53 31 1 0 0 F
+S -73 11 -68 46 1 0 0 F
+P 2 1 0 0 -100 0 100 0 N
+P 2 1 0 0 0 -40 0 -100 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:DIODE-SMB
+#
+DEF couch-reg-rc-eagle-import:DIODE-SMB D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "couch-reg-rc-eagle-import:DIODE-SMB" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:E48SC12010
+#
+DEF couch-reg-rc-eagle-import:E48SC12010 U 0 40 Y Y 1 L N
+F0 "U" -300 400 59 H V L BNN
+F1 "couch-reg-rc-eagle-import:E48SC12010" -300 -500 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -300 -400 -300 400 N
+P 2 1 0 0 -300 400 500 400 N
+P 2 1 0 0 500 -400 -300 -400 N
+P 2 1 0 0 500 400 500 -400 N
+X VIN+ 1 -500 300 200 R 50 50 1 0 W
+X ON/OFF 2 -500 0 200 R 50 50 1 0 I
+X VIN- 3 -500 -300 200 R 50 50 1 0 W
+X VOUT- 4 700 -300 200 L 50 50 1 0 W
+X SENSE- 5 700 -200 200 L 50 50 1 0 I
+X TRIM 6 700 0 200 L 50 50 1 0 I
+X SENSE+ 7 700 200 200 L 50 50 1 0 I
+X VOUT+ 8 700 300 200 L 50 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:FRAME-A4
+#
+DEF ~couch-reg-rc-eagle-import:FRAME-A4 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "couch-reg-rc-eagle-import:FRAME-A4" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 8550 800 100 0 1 0 >AUTHOR Normal 0 L B
+T 0 8550 600 100 0 1 0 >DRAWING_NAME Normal 0 L B
+T 0 8550 400 90 0 1 0 >LAST_DATE_TIME Normal 0 L B
+T 0 9075 200 100 0 1 0 >SHEET Normal 0 L B
+T 0 8540 195 100 0 1 0 Sheet: Normal 0 L B
+P 2 1 0 0 6350 150 6350 950 N
+P 2 1 0 0 6350 950 8475 950 N
+P 2 1 0 0 8475 350 8475 150 N
+P 2 1 0 0 8475 350 8475 550 N
+P 2 1 0 0 8475 550 8475 750 N
+P 2 1 0 0 8475 550 10100 550 N
+P 2 1 0 0 8475 750 8475 950 N
+P 2 1 0 0 8475 750 10100 750 N
+P 2 1 0 0 8475 950 10100 950 N
+P 2 1 0 0 9700 150 9700 350 N
+P 2 1 0 0 9700 350 8475 350 N
+P 2 1 0 0 9700 350 10100 350 N
+P 2 1 0 0 10100 150 10100 350 N
+P 2 1 0 0 10100 350 10100 550 N
+P 2 1 0 0 10100 550 10100 750 N
+P 2 1 0 0 10100 750 10100 950 N
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:FUSE0603
+#
+DEF couch-reg-rc-eagle-import:FUSE0603 F 0 40 Y Y 1 L N
+F0 "F" -150 55 59 H V L BNN
+F1 "couch-reg-rc-eagle-import:FUSE0603" -150 -115 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -150 -30 150 -30 N
+P 2 1 0 0 -150 30 -150 -30 N
+P 2 1 0 0 -100 0 100 0 N
+P 2 1 0 0 150 -30 150 30 N
+P 2 1 0 0 150 30 -150 30 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:GND
+#
+DEF couch-reg-rc-eagle-import:GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "couch-reg-rc-eagle-import:GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:LEDCHIPLED_0603
+#
+DEF couch-reg-rc-eagle-import:LEDCHIPLED_0603 LED 0 40 Y Y 1 L N
+F0 "LED" 140 -180 59 V V L BNN
+F1 "couch-reg-rc-eagle-import:LEDCHIPLED_0603" 225 -180 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C C 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:MA03-1KK
+#
+DEF couch-reg-rc-eagle-import:MA03-1KK J 0 40 Y Y 1 L N
+F0 "J" -150 230 59 H V L BNN
+F1 "couch-reg-rc-eagle-import:MA03-1KK" -150 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -150 200 -150 -200 N
+P 2 1 0 0 -150 200 50 200 N
+P 2 1 0 0 -50 -100 0 -100 N
+P 2 1 0 0 -50 0 0 0 N
+P 2 1 0 0 -50 100 0 100 N
+P 2 1 0 0 50 -200 -150 -200 N
+P 2 1 0 0 50 -200 50 200 N
+X 1 1 200 -100 200 L 50 0 1 0 P
+X 2 2 200 0 200 L 50 0 1 0 P
+X 3 3 200 100 200 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:PCBTERM2
+#
+DEF ~couch-reg-rc-eagle-import:PCBTERM2 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "couch-reg-rc-eagle-import:PCBTERM2" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 175 0 25 1 0 10 N
+C 175 100 25 1 0 10 N
+P 2 1 0 0 100 -50 250 -50 N
+P 2 1 0 0 100 150 100 -50 N
+P 2 1 0 0 250 -50 250 150 N
+P 2 1 0 0 250 150 100 150 N
+X P$1 1 0 100 100 R 50 0 1 0 P
+X P$2 2 0 0 100 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:PE
+#
+DEF couch-reg-rc-eagle-import:PE #PE 0 40 Y Y 1 L P
+F0 "#PE" 0 0 50 H I C CNN
+F1 "couch-reg-rc-eagle-import:PE" -100 -100 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+P 2 1 0 0 -43 -20 43 -20 N
+P 2 1 0 0 -24 -40 24 -40 N
+P 2 1 0 0 -12 -60 13 -60 N
+X PE 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:R-US_R0603
+#
+DEF couch-reg-rc-eagle-import:R-US_R0603 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "couch-reg-rc-eagle-import:R-US_R0603" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:SHK20L
+#
+DEF couch-reg-rc-eagle-import:SHK20L F 0 40 Y Y 1 L N
+F0 "F" -150 55 59 H V L BNN
+F1 "couch-reg-rc-eagle-import:SHK20L" -150 -115 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -150 -30 150 -30 N
+P 2 1 0 0 -150 30 -150 -30 N
+P 2 1 0 0 150 -30 150 30 N
+P 2 1 0 0 150 30 -150 30 N
+X 1A 1A -200 0 100 R 0 0 1 0 P
+X 1B 1B -100 0 100 R 0 0 1 0 P
+X 2A 2A 200 0 100 L 0 0 1 0 P
+X 2B 2B 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:V+
+#
+DEF couch-reg-rc-eagle-import:V+ #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "couch-reg-rc-eagle-import:V+" -100 -100 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -35 -50 35 -50 N
+P 2 1 0 0 0 5 -35 -50 N
+P 2 1 0 0 35 -50 0 5 N
+X V+ 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# couch-reg-rc-eagle-import:ZENER-DIODEC1702-15
+#
+DEF couch-reg-rc-eagle-import:ZENER-DIODEC1702-15 D 0 40 Y Y 1 L N
+F0 "D" -70 75 59 H V L BNN
+F1 "couch-reg-rc-eagle-import:ZENER-DIODEC1702-15" -70 -135 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 -50 25 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
