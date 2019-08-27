@@ -217,7 +217,6 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5250 2750 50
 	1    5250 3750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4750 4350
 NoConn ~ 5750 4050
 Text GLabel 6250 4050 0    50   Input ~ 0
 GND
@@ -319,9 +318,6 @@ Wire Wire Line
 Connection ~ 3800 5200
 Text GLabel 3800 5700 3    50   Input ~ 0
 GND
-Connection ~ 3800 5400
-Wire Wire Line
-	3800 5400 3800 5700
 Wire Wire Line
 	4000 4150 4050 4150
 Wire Wire Line
@@ -356,4 +352,38 @@ Wire Wire Line
 	4700 5400 4700 4250
 Wire Wire Line
 	4700 4250 4750 4250
+$Comp
+L Device:LED D5
+U 1 1 5D650BF0
+P 4250 5600
+F 0 "D5" H 4243 5816 50  0000 C CNN
+F 1 "LED" H 4243 5725 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 5600 50  0001 C CNN
+F 3 "~" H 4250 5600 50  0001 C CNN
+	1    4250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D650BF6
+P 3950 5600
+F 0 "R8" V 3743 5600 50  0000 C CNN
+F 1 "330" V 3834 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 5600 50  0001 C CNN
+F 3 "~" H 3950 5600 50  0001 C CNN
+	1    3950 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 5600 4650 5600
+Wire Wire Line
+	4650 5600 4650 4350
+Wire Wire Line
+	4650 4350 4750 4350
+Wire Wire Line
+	3800 5400 3800 5600
+Connection ~ 3800 5400
+Wire Wire Line
+	3800 5600 3800 5700
+Connection ~ 3800 5600
 $EndSCHEMATC
