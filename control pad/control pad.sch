@@ -1,0 +1,359 @@
+EESchema Schematic File Version 4
+LIBS:control pad-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Display_Character:RC1602A U1
+U 1 1 5D5E4B88
+P 3600 3850
+F 0 "U1" H 3600 2969 50  0000 C CNN
+F 1 "RC1602A" H 3600 3060 50  0000 C CNN
+F 2 "Display:WC1602A" H 3700 3050 50  0001 C CNN
+F 3 "http://www.raystar-optronics.com/down.php?ProID=18" H 3700 3750 50  0001 C CNN
+	1    3600 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 3350 4750 3350
+Wire Wire Line
+	4750 3450 4000 3450
+Wire Wire Line
+	4000 3550 4750 3550
+Wire Wire Line
+	4750 3650 4000 3650
+Text GLabel 5350 4750 3    50   Input ~ 0
+GND
+Text GLabel 3600 3150 1    50   Input ~ 0
+GND
+Text GLabel 3000 3650 0    50   Input ~ 0
+GND
+Text GLabel 2750 4550 3    50   Input ~ 0
+GND
+$Comp
+L Device:R R2
+U 1 1 5D5EF883
+P 2750 4400
+F 0 "R2" H 2820 4446 50  0000 L CNN
+F 1 "1.1K" H 2820 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 4400 50  0001 C CNN
+F 3 "~" H 2750 4400 50  0001 C CNN
+	1    2750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D5ED90A
+P 2500 4050
+F 0 "R1" V 2293 4050 50  0000 C CNN
+F 1 "10K" V 2384 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 4050 50  0001 C CNN
+F 3 "~" H 2500 4050 50  0001 C CNN
+	1    2500 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 4250 2750 4050
+Text GLabel 2300 4050 0    50   Input ~ 0
+5V
+Text GLabel 5450 2750 1    50   Input ~ 0
+5V
+Wire Wire Line
+	2300 4050 2350 4050
+Wire Wire Line
+	2650 4050 2750 4050
+Text GLabel 2550 3550 0    50   Input ~ 0
+5V
+$Comp
+L Device:R R3
+U 1 1 5D5F746D
+P 2700 3550
+F 0 "R3" V 2493 3550 50  0000 C CNN
+F 1 "56" V 2584 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2630 3550 50  0001 C CNN
+F 3 "~" H 2700 3550 50  0001 C CNN
+	1    2700 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 4050 3200 4050
+Connection ~ 2750 4050
+Text GLabel 3600 4550 3    50   Input ~ 0
+5V
+Text GLabel 4000 4250 2    50   Input ~ 0
+GND
+Text GLabel 5250 4750 3    50   Input ~ 0
+GND
+$Comp
+L SparkFun-Electromechanical:analogstick U2
+U 1 1 5D5E9F3D
+P 7100 2900
+F 0 "U2" H 7328 2651 50  0000 L CNN
+F 1 "analogstick" H 7328 2560 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7100 3000 50  0001 C CNN
+F 3 "" H 7100 3000 50  0001 C CNN
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J1
+U 1 1 5D606504
+P 6350 3200
+F 0 "J1" H 6400 3661 50  0000 C CNN
+F 1 "IDC CONNECTOR 02x04" H 6400 3583 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 6350 3200 50  0001 C CNN
+F 3 "~" H 6350 3200 50  0001 C CNN
+	1    6350 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3100 6800 3100
+Wire Wire Line
+	6650 3200 6800 3200
+Wire Wire Line
+	6650 3300 6800 3300
+Wire Wire Line
+	6650 3400 6800 3400
+Text GLabel 6800 3000 0    50   Input ~ 0
+GND1
+Text GLabel 6150 3400 0    50   Input ~ 0
+GND1
+Text GLabel 6250 3950 0    50   Input ~ 0
+E-STOP
+Text GLabel 6150 3300 0    50   Input ~ 0
+E-STOP
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5D618D8F
+P 6450 3950
+F 0 "J2" H 6530 3942 50  0000 L CNN
+F 1 "Conn_01x02" H 6530 3851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 3950 50  0001 C CNN
+F 3 "~" H 6450 3950 50  0001 C CNN
+	1    6450 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4750 3150
+NoConn ~ 4750 3250
+NoConn ~ 4750 4450
+NoConn ~ 4000 3750
+NoConn ~ 4000 3850
+NoConn ~ 4000 3950
+NoConn ~ 4000 4050
+NoConn ~ 5750 3150
+NoConn ~ 5750 3250
+NoConn ~ 5750 3550
+NoConn ~ 5750 3750
+NoConn ~ 5750 3850
+NoConn ~ 5750 3950
+NoConn ~ 5750 4150
+NoConn ~ 5750 4250
+NoConn ~ 5750 4450
+NoConn ~ 5750 4350
+NoConn ~ 6150 3100
+NoConn ~ 6150 3200
+NoConn ~ 5150 2750
+NoConn ~ 5350 2750
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D624E35
+P 5950 5000
+F 0 "#FLG0102" H 5950 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 5950 5173 50  0000 C CNN
+F 2 "" H 5950 5000 50  0001 C CNN
+F 3 "~" H 5950 5000 50  0001 C CNN
+	1    5950 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 5000 3    50   Input ~ 0
+GND
+Wire Wire Line
+	2850 3550 3200 3550
+Wire Wire Line
+	3000 3650 3200 3650
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D626A64
+P 3200 3550
+F 0 "#FLG0101" H 3200 3625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 3723 50  0000 C CNN
+F 2 "" H 3200 3550 50  0001 C CNN
+F 3 "~" H 3200 3550 50  0001 C CNN
+	1    3200 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 3550
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5D6277A8
+P 3200 4050
+F 0 "#FLG0103" H 3200 4125 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 4223 50  0000 C CNN
+F 2 "" H 3200 4050 50  0001 C CNN
+F 3 "~" H 3200 4050 50  0001 C CNN
+	1    3200 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 4050
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5D64A7D4
+P 5250 3750
+F 0 "A1" H 5250 2661 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 5250 2570 50  0000 C CNN
+F 2 "Module:Arduino_Nano_WithMountingHoles" H 5400 2800 50  0001 L CNN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5250 2750 50  0001 C CNN
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4750 4350
+NoConn ~ 5750 4050
+Text GLabel 6250 4050 0    50   Input ~ 0
+GND
+$Comp
+L Device:LED D1
+U 1 1 5D654B7A
+P 4250 4750
+F 0 "D1" H 4243 4966 50  0000 C CNN
+F 1 "LED" H 4243 4875 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 4750 50  0001 C CNN
+F 3 "~" H 4250 4750 50  0001 C CNN
+	1    4250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5D658A29
+P 4250 4950
+F 0 "D2" H 4243 5166 50  0000 C CNN
+F 1 "LED" H 4243 5075 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 4950 50  0001 C CNN
+F 3 "~" H 4250 4950 50  0001 C CNN
+	1    4250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5D6595B9
+P 4250 5200
+F 0 "D3" H 4243 5416 50  0000 C CNN
+F 1 "LED" H 4243 5325 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 5200 50  0001 C CNN
+F 3 "~" H 4250 5200 50  0001 C CNN
+	1    4250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5D659F4E
+P 4250 5400
+F 0 "D4" H 4243 5616 50  0000 C CNN
+F 1 "LED" H 4243 5525 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 5400 50  0001 C CNN
+F 3 "~" H 4250 5400 50  0001 C CNN
+	1    4250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5D65AA46
+P 3950 5400
+F 0 "R7" V 3743 5400 50  0000 C CNN
+F 1 "330" V 3834 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 5400 50  0001 C CNN
+F 3 "~" H 3950 5400 50  0001 C CNN
+	1    3950 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D65D1A8
+P 3950 5200
+F 0 "R6" V 3743 5200 50  0000 C CNN
+F 1 "330" V 3834 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 5200 50  0001 C CNN
+F 3 "~" H 3950 5200 50  0001 C CNN
+	1    3950 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D65D5DA
+P 3950 4950
+F 0 "R5" V 3743 4950 50  0000 C CNN
+F 1 "330" V 3834 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 4950 50  0001 C CNN
+F 3 "~" H 3950 4950 50  0001 C CNN
+	1    3950 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D65D9E4
+P 3950 4750
+F 0 "R4" V 3743 4750 50  0000 C CNN
+F 1 "330" V 3834 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 4750 50  0001 C CNN
+F 3 "~" H 3950 4750 50  0001 C CNN
+	1    3950 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 4750 3800 4950
+Wire Wire Line
+	3800 4950 3800 5200
+Connection ~ 3800 4950
+Wire Wire Line
+	3800 5200 3800 5400
+Connection ~ 3800 5200
+Text GLabel 3800 5700 3    50   Input ~ 0
+GND
+Connection ~ 3800 5400
+Wire Wire Line
+	3800 5400 3800 5700
+Wire Wire Line
+	4000 4150 4050 4150
+Wire Wire Line
+	4050 4150 4050 3750
+Wire Wire Line
+	4050 3750 4750 3750
+Wire Wire Line
+	4000 4350 4250 4350
+Wire Wire Line
+	4250 4350 4250 3850
+Wire Wire Line
+	4250 3850 4750 3850
+Wire Wire Line
+	4400 4750 4400 3950
+Wire Wire Line
+	4400 3950 4750 3950
+Wire Wire Line
+	4400 4950 4500 4950
+Wire Wire Line
+	4500 4950 4500 4050
+Wire Wire Line
+	4500 4050 4750 4050
+Wire Wire Line
+	4400 5200 4600 5200
+Wire Wire Line
+	4600 5200 4600 4150
+Wire Wire Line
+	4600 4150 4750 4150
+Wire Wire Line
+	4400 5400 4700 5400
+Wire Wire Line
+	4700 5400 4700 4250
+Wire Wire Line
+	4700 4250 4750 4250
+$EndSCHEMATC
